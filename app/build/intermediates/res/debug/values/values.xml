@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/July/Dev/Android%20Dev/Workspace/BuzzApp/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/July/Dev/Android%20Dev/Workspace/BuzzApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <integer name="REQUEST_ADD">7</integer>
+    <integer name="REQUEST_BUZZ">3</integer>
+    <integer name="REQUEST_FRIENDLIST">6</integer>
+    <integer name="REQUEST_LOGIN">1</integer>
+    <integer name="REQUEST_NEWEVENT">4</integer>
+    <integer name="REQUEST_RESPONSE">7</integer>
+    <integer name="REQUEST_SEARCH">5</integer>
+    <integer name="REQUEST_SIGNUP">2</integer>
+    <string name="action_settings">Settings</string>
+    <string name="add">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/addfriend.php</string>
+    <string name="app_name">BuzzAPP</string>
+    <string name="buzz">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/buzz_friend.php</string>
+    <string name="friendList">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/friendslist.php</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/login.php</string>
+    <string name="newEvent">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/checkNewEvent.php</string>
+    <string name="response">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/req_accept_reject.php</string>
+    <string name="search">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/search.php</string>
+    <string name="signUp">http://ec2-54-187-87-230.us-west-2.compute.amazonaws.com/buzzapp/signup.php</string>
+    <!-- From: file:/Users/July/Dev/Android%20Dev/Workspace/BuzzApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

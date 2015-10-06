@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+        
+	<TextView
+		android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00BFFF"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Buzzapp">
+    </TextView>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center|center_horizontal|center_vertical">	
+	    
+	    <TextView
+			android:layout_width="match_parent"
+       		android:layout_height="50dp"
+       		android:layout_marginTop="30dp"
+       		android:layout_marginLeft="10dp"
+           	android:layout_marginRight="10dp"
+        	android:text="Input your phone number">
+    	</TextView>
+	    
+	    <Spinner android:id="@+id/Spinner01"   
+           android:layout_width="fill_parent"  
+           android:layout_height="wrap_content"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:textAlignment="center"
+           android:gravity="center"></Spinner>
+	    
+	    <EditText
+            android:id="@+id/login_phone_number"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="30dp"
+    		android:layout_marginRight="30dp"
+           	android:layout_marginLeft="30dp"
+    		android:hint="Phone number"
+    		android:inputType="number"
+    		android:layout_marginBottom="100dp"></EditText>	    
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+	
+	</LinearLayout>
+        
+
+</LinearLayout>
+<!-- From: file:/Users/July/Dev/Android%20Dev/Workspace/BuzzApp/app/src/main/res/layout/login.xml -->
